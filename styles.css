@@ -5,39 +5,38 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+
   h1 {
     color: #065fd4;
   }
-  
+
   .game-container {
-    position: relative; /* Enable relative positioning for the container */
-    margin: 0 auto; /* Center the container horizontally */
-    width: 800px; /* Set the width of the container */
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
   }
-  
+
   #gameCanvas {
-    border: 2px solid #065fd4; /* Add a border around the canvas */
-    display: block; /* Make the canvas a block-level element */
-    margin: 20px auto; /* Center the canvas within the container */
-    background-color: #fff; /* Set a background color for the canvas */
+    border: 2px solid #065fd4;
+    display: block;
+    margin: 20px auto;
+    background-color: #fff
   }
-  
+
   #resetButton {
-    padding: 10px 20px; /* Add padding to the reset button */
-    background-color: #065fd4; /* Set background color for the button */
-    color: #fff; /* Set text color for the button */
-    border: none; /* Remove default button border */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    transition: background-color 0.3s; /* Add transition for smooth color change */
+    padding: 10px 20px;
+    background-color: #065fd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
-  
+
   #resetButton:hover {
-    background-color: #043d8c; /* Change button color on hover */
+    background-color: #043d8c;
   }
-  
+
   p {
     color: #555;
     font-size: 18px;
   }
-  
